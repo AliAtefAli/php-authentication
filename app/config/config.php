@@ -3,7 +3,7 @@
   define('DB_HOST', 'localhost');
   define('DB_USER', 'root');
   define('DB_PASS', '');
-  define('DB_NAME', 'login-register-php');
+  define('DB_NAME', 'php_authentication');
 
   // App
   define('APP_ROOT', dirname(dirname(__FILE__)));

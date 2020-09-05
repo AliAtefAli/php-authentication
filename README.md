@@ -1,5 +1,10 @@
 # PHP Authentication
-This is simple php authentication website, that i use php, MVC Pattern, and PDO.
+This is simple php authentication Application using php, MVC Pattern, and PDO.\
+You can register, or login if you are registered before. The registration require name, email, and password. 
 
 # Installation
-you should edit the `APP_ROOT` constant that in `app/config.php` file.  
+* Install Xampp
+* Clone the repo in `hdocs` directory
+* If change port you must change the `APP_ROOT` constant that in `app/config.php` file, 
+    for example if you change the port to `8000` change the `APP_ROOT` to `http://localhost:8000/php-authentication`
+* Run the database file that is stored in `app/database/database.sql`
